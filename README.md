@@ -1,5 +1,6 @@
 
-# This week's topic - For Loops, Classes, Vectors
+# This week's topic
+**For Loops, Classes, Vectors**
 In this module, students will learn how to apply ``loops``along with ``Classes`` and ``Vectors`` to automate tedious and repetitive tasks.
 
 ## Theme
@@ -22,8 +23,8 @@ In this module, students will learn how to apply ``loops``along with ``Classes``
 
 
 # Long Term Goal
-```Be able to comfortably use for loops to iterate through a given array of varying sizes and extract info based on inside the array.
-```
+``Be able to comfortably use for loops to iterate through a given array of varying sizes and extract info based on inside the array.
+``
 *__first draft version__*
 
 
