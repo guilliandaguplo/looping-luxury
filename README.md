@@ -1,6 +1,7 @@
 
-# This week's topic
+# This Week's Topic\!
 **For Loops, Classes, Vectors**
+
 In this module, students will learn how to apply ``loops``along with ``Classes`` and ``Vectors`` to automate tedious and repetitive tasks.
 
 ## Theme
@@ -17,14 +18,16 @@ In this module, students will learn how to apply ``loops``along with ``Classes``
 
 # Tasks:
 - [ ] Create an array to represent the customers we have to email.
+
 - [ ] Create a class to represent the customer and their cart.
+
 - [ ] Add functions that compose the message based on customers name and the items they bought.
+
 - [ ] Store the customer in a vector of class objects then pass the customer to a function that will use for loops to iterate inside the vector of customers to “send” the email until there is no more.
 
 
 # Long Term Goal
-``Be able to comfortably use for loops to iterate through a given array of varying sizes and extract info based on inside the array.
-``
+**Be able to comfortably use for loops to iterate through a given array of varying sizes and extract info based on inside the array.**
 
 *__first draft version__*
 
