@@ -1,13 +1,13 @@
 
-#Topic
+# Topic
 ## In this module, students will learn how to apply loops to automate tedious and repetitive tasks.
 
-#Theme
-##**Imagine** you are working for a start up company that resells luxury brand items\. An important aspect of a successful online business is establishing communication with customers after the first interaction\.
+# Theme
+## **Imagine** you are working for a start up company that resells luxury brand items\. An important aspect of a successful online business is establishing communication with customers after the first interaction\.
 
-##So your boss decides to task you with reaching out to customers, welcoming them with a **personalized email** that thanks them for their first purchase and encourages them to consider the company for future luxury brand purposes\.
+## So your boss decides to task you with reaching out to customers, welcoming them with a **personalized email** that thanks them for their first purchase and encourages them to consider the company for future luxury brand purposes\.
 
-##Now imagine **thousands** of orders coming in and **manually** typing each letter\! It would be very time consuming\. To avoid this, your **goal** is to create a program that will send those automated emails our for us\!
+## Now imagine **thousands** of orders coming in and **manually** typing each letter\! It would be very time consuming\. To avoid this, your **goal** is to create a program that will send those automated emails our for us\!
 
 Goal: You will create a program that will write a templatized message given an array of customers and the item(s) that they bought.
 (Store class objects in arrays)
