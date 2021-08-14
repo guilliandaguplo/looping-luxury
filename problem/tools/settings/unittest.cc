@@ -2,11 +2,18 @@
 #include <gtest/gtest.h>
 #include "../cppaudit/gtest_ext.h"
 
-#include "../../math.h"
+// Include the header files from the student solution.
+// Use ../../ prefix to locate the student solution folder
+// For example:
+// #include "../../math.h"
+
+/* Sample Unit test
 
 TEST(Factorial, Zero) {
 	ASSERT_EQ(factorial(0), 1);
 }
+
+*/
 
 int main(int argc, char **argv) {
   testing::InitGoogleTest(&argc, argv);
