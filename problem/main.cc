@@ -13,8 +13,10 @@ std::vector<std::string> randomItem();
 
 int main() {
 CustomerFactory session;
-for (size_t i = 0; i < 100; i++) {
- std::cout << session.randomCustomerName() << std::endl;
+std::vector<Customer> test = session.createCustomer();
+for (size_t i = 0; i < test.size(); i++) {
+  test[i].ComposeCustomerMessage();
+  std::cout << test[i].GetCustomerMessage();
 }
 
  return 0;
