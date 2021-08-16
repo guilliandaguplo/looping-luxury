@@ -8,6 +8,7 @@
 
 class Customer {
   public:
+
     //Add constructor(s)
     Customer() : Customer("Michael Jackson"){}
     Customer(const std::string &name) : customerName(name) {}
@@ -23,12 +24,14 @@ class Customer {
     //Getters for personalizedMessage
     std::string GetCustomerMessage() { return customerMessage; }
 
-    //Add cart passed to constructor to customerCart
+    //Add cart passed from constructor to customerCart
     void copyCart(std::vector<std::string> items) {
       for (int i = 0; i < items.size(); i++) {
         customerCart.push_back(items[i]);
       }
     }
+    //Add a function to compose a customers personalized
+    //email message.
     void ComposeCustomerMessage() {
       customerMessage = "Thank you! " + customerName;
       customerMessage += ",\n";
@@ -37,9 +40,9 @@ class Customer {
         customerMessage += customerCart[i];
         customerMessage += " \n";
       }
-      customerMessage += "We hope you enjoyed your items, We hope to you see you again!";
+      customerMessage += "We hope you enjoyed your items, We hope to you see you again!\n\n";
     }
-  private:
+  private: // private variablies here
     std::string customerMessage, customerName;
     std::vector<std::string>customerCart;
 };

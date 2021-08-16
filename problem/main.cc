@@ -8,12 +8,11 @@
 
 //Will just cout personalizedMessage of each
 void sendEmail(std::string message);
-//Get Random Luxury Item from items4sale
-std::vector<std::string> randomItem();
 
+//Main function, YOU DO NOT HAVE TO EDIT! you're welcome.
 int main() {
 CustomerFactory session;
-std::vector<Customer> test = session.createCustomer();
+std::vector<Customer> test = session.createCustomers();
 for (size_t i = 0; i < test.size(); i++) {
   test[i].ComposeCustomerMessage();
   std::cout << test[i].GetCustomerMessage();

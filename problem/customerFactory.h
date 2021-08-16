@@ -7,12 +7,14 @@
 #include <stdlib.h>
 #include <time.h>
 
+// class CustomerFactory here
 class CustomerFactory {
 public:
-  std::vector<Customer> createCustomer() {
+
+  std::vector<Customer> createCustomers() {
     srand(time(NULL));
-    //just Create 1 for right now
-    for (size_t i = 0; i < 1; i++) {
+    //Controls how many customers are made (can randomize)
+    for (size_t i = 0; i < 10; i++) {
       queueList.push_back(Customer(randomCustomerName(),getRandomCart()));
     }
     return queueList;
@@ -42,7 +44,8 @@ public:
     }
    return false;
   }
-  //Getter for customer's cart reference
+  //Create a random cart that is copied onto a customer
+  //cart
   std::vector<std::string> getRandomCart() {
     srand(time(NULL));
     std::vector<std::string> randomCart;
