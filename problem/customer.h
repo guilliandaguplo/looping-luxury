@@ -35,10 +35,10 @@ class Customer {
     void ComposeCustomerMessage() {
       customerMessage = "Thank you! " + customerName;
       customerMessage += ",\n";
-      customerMessage += "for choosing Looping Luxury, as your one stop shop for everything luxury. \nYour Purchases Included: \n";
+      customerMessage += "for choosing Looping Luxury, as your one stop shop for everything luxury.\nYour Purchases Included:\n";
       for (size_t i = 0; i < customerCart.size(); i++) {
         customerMessage += customerCart[i];
-        customerMessage += " \n";
+        customerMessage += "\n";
       }
       customerMessage += "We hope you enjoyed your items, We hope to you see you again!\n\n";
     }
